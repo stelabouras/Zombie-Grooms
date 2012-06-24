@@ -1,0 +1,50 @@
+body {
+	background: #000;
+}
+#container {
+	background: #fff;
+	display: block;
+	margin: 20px auto;
+	position: relative;
+	width: 320px;
+	height: 200px;
+}
+#container div {
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 320px;
+	height: 200px;
+}
+h1 {
+	text-align: center;
+}
+section, h1,footer {
+	color: #fff;
+	width: 320px;
+	margin: 20px auto 0;
+}
+footer p {
+	color: #999;
+	font-size: 10px;
+}
+footer .social * {
+	float: left;
+	width: 100px !important;
+}
+section a {
+	color: #fff;
+}
+p {
+	color: #fff;
+}
+#overlay {
+	width: 320px;
+	height: 200px;
+	vertical-align: middle;
+}
+#overlay progress {
+	height: 20px;
+	vertical-align: middle;
+}
